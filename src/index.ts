@@ -5,3 +5,4 @@ import app from './app';
 const driveController = new DriveController();
 
 app.get('/', driveController.get)
+app.get('/:id', driveController.getById)
